@@ -1,0 +1,79 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.1
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_192
+java.home            : C:\Program Files\Java\jre1.8.0_192
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Wed Dec 05 12:39:38 IST 2018
+Loading Browser Profile
+Loading RunManager
+[Scenario:NewScenario] [TestCase: NewTestCase] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 8433
+Only local connections are allowed.
+[1543993792.519][WARNING]: Timed out connecting to Chrome, retrying...
+2018-12-05 12:39:56:12S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://spritz.cognizant.com/login.php | Conditon:  | @05-Dec-2018 12:39:56.056
+[DONE]   | Opened Url: https://spritz.cognizant.com/login.php
+
+===================================================================================================
+
+Step:2   | Object: User ID : | Action: Click | Input:  | Conditon:  | @05-Dec-2018 12:39:59.059
+Using @name [userLogin], Object 'User ID :' Found in 75 ms
+[DONE]   | Clicking on User ID :
+
+===================================================================================================
+
+Step:3   | Object: User ID : | Action: Set | Input: @513379 | Conditon:  | @05-Dec-2018 12:40:00.000
+Using @name [userLogin], Object 'User ID :' Found in 25 ms
+[DONE]   | Entered Text '513379' on 'User ID :'
+
+===================================================================================================
+
+Step:4   | Object: Password : | Action: Click | Input:  | Conditon:  | @05-Dec-2018 12:40:01.001
+Using @name [userPassword], Object 'Password :' Found in 24 ms
+[DONE]   | Clicking on Password :
+
+===================================================================================================
+
+Step:5   | Object: Password : | Action: setEncrypted | Input: @V2luZG93QDQ= Enc | Conditon:  | @05-Dec-2018 12:40:01.001
+Using @name [userPassword], Object 'Password :' Found in 18 ms
+[DONE]   | Entered Encrypted Text V2luZG93QDQ= on Password :
+
+===================================================================================================
+
+Step:6   | Object: Login | Action: Click | Input:  | Conditon:  | @05-Dec-2018 12:40:02.002
+Using @name [submit], Object 'Login' Found in 21 ms
+[DONE]   | Clicking on Login
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : NewScenario:NewTestCase
+Executed Steps       : 6
+Passed Steps         : 6
+Failed Steps         : 0
+Time Taken           : 00:00:24
+-----------------------------------------------------
+
+Run Finished on Wed Dec 05 12:40:03 IST 2018
+-----------------------------------------------------
+ExecutionDate        : 05-Dec-2018 12-39-38
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:25
+ReportPath           : file:///D:\cognizant-intelligent-test-scripter-1.1-setup (1)\cognizant-intelligent-test-scripter-1.1\Projects\Darshan1\Results\TestDesign\NewScenario\NewTestCase\05-Dec-2018 12-39-38\summary.html
+-----------------------------------------------------

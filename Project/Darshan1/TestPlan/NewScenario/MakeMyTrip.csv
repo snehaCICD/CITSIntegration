@@ -1,0 +1,12 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@https://www.makemytrip.com/,,
+2,bus,"Click the [<Object>] ",Click,,,MakeMyTrip
+3,hp-widget__sfrom,"Click the [<Object>] ",Click,,,Online
+4,hp-widget__sfrom,Enter the value [<Data>] in the Field [<Object>],Set,@Pune,,Online
+5,hp-widget__sTo,"Click the [<Object>] ",Click,,,Online
+6,ui-id-2,selecting value [<Data>] from unordered list .,selectValueFromUnorderedList,@Mumbai,,Online
+7,hp-widget__sTo,Enter the value [<Data>] in the Field [<Object>],Set,@Mumbai,,Online
+8,hp-widget__depart,"Click the [<Object>] ",Click,,,Online
+9,29,"Click the [<Object>] ",Click,,,Online
+10,Search,"Click the [<Object>] ",Click,,,Online
+11,Select Seats,"Click the [<Object>] ",Click,,,Online1

@@ -1,0 +1,9 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@http://demo.automationtesting.in/,,
+2,logo,"Click the [<Object>] ",Click,,,Index
+3,Alerts,"Click the [<Object>] ",Click,,,Register
+4,click the button to display an,"Click the [<Object>] ",Click,,,Alerts
+5,Alert with OK & Cancel,"Click the [<Object>] ",Click,,,Alerts
+6,click the button to display a,"Click the [<Object>] ",Click,,,Alerts
+7,Alert with Textbox,"Click the [<Object>] ",Click,,,Alerts
+8,click the button to demonstrat,"Click the [<Object>] ",Click,,,Alerts

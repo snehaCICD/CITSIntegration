@@ -1,0 +1,31 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@http://demo.automationtesting.in/Register.html,,
+2,First Name,"Click the [<Object>] ",Click,,,Register
+3,First Name1,Enter the value [<Data>] in the Field [<Object>],Set,@Darshan,,Register
+4,Last Name,"Click the [<Object>] ",Click,,,Register
+5,Last Name1,Enter the value [<Data>] in the Field [<Object>],Set,@Dudhe,,Register
+6,form-control ng-pristine ng-untouched ng-valid,"Click the [<Object>] ",Click,,,Register
+7,form-control ng-untouched ng-valid ng-dirty ng-valid-parse,Enter the value [<Data>] in the Field [<Object>],Set,@Warje Malwadi,,Register
+8,form-control ng-pristine ng-untouched ng-valid-email ng-invalid ng-invalid-required,"Click the [<Object>] ",Click,,,Register
+9,form-control ng-untouched ng-dirty ng-valid-required ng-valid ng-valid-email,Enter the value [<Data>] in the Field [<Object>],Set,@abc@gmail.com,,Register
+10,form-control ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid-pattern,"Click the [<Object>] ",Click,,,Register
+11,form-control ng-untouched ng-dirty ng-valid-parse ng-valid-required ng-valid ng-valid-pattern,Enter the value [<Data>] in the Field [<Object>],Set,@4578963215,,Register
+12,radiooptions,"Click the [<Object>] ",Click,,,Register
+13,checkbox1,"Click the [<Object>] ",Click,,,Register
+14,checkbox2,"Click the [<Object>] ",Click,,,Register
+15,Language,"Click the [<Object>] ",Click,,,Register
+16,English,"Click the [<Object>] ",Click,,,Register
+17,Hindi,"Click the [<Object>] ",Click,,,Register
+18,Skills,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,@C++,,Register
+19,countries,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,@India,,Register
+20,select2-search__field,"Click the [<Object>] ",Click,,,Register
+21,select2-country-container,"Click the [<Object>] ",Click,,,Register
+22,India,"Click the [<Object>] ",Click,,,Register
+23,Browser,Wait for [<Data>] milli seconds,pause,@5000,,
+24,yearbox,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,@1994,,Register
+25,form-control ng-pristine ng-untouched ng-invalid ng-invalid-required,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,@February,,Register
+26,daybox1,Select item in [<Object>] which has text: [<Data>],selectByVisibleText,@13,,Register
+27,firstpassword,"Click the [<Object>] ",Click,,,Register
+28,firstpassword1,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,@YWJjZDEyMzQ= Enc,,Register
+29,secondpassword,"Click the [<Object>] ",Click,,,Register
+30,secondpassword1,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,@YWJjZDEyMzQ= Enc,,Register

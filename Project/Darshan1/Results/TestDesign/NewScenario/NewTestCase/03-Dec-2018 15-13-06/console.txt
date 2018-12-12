@@ -1,0 +1,68 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.1
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_192
+java.home            : C:\Program Files\Java\jre1.8.0_192
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Mon Dec 03 15:13:06 IST 2018
+Loading Browser Profile
+Loading RunManager
+[Scenario:NewScenario] [TestCase: NewTestCase] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1-setup%20(1)/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2018-12-03 15:13:15:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2018-12-03 15:13:15:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+jar:file:/D:/cognizant-intelligent-test-scripter-1.1-setup%20(1)/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2018-12-03 15:13:18:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2018-12-03 15:13:18:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2018-12-03 15:13:18:12S +0530 [SEVERE] com.cognizant.cognizantits.extension.server.EventServer start:null
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:298)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:431)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.cognizant.cognizantits.extension.server.EventServer.start(EventServer.java:111)
+	at com.cognizant.cognizantits.extension.server.ExtensionServer$1.run(ExtensionServer.java:86)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-12-03 15:13:18:12S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 11149
+Only local connections are allowed.
+[1543830218.550][WARNING]: Timed out connecting to Chrome, retrying...
+2018-12-03 15:13:42:12S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+
+---------------------------------------------------
+Testcase Name        : NewScenario:NewTestCase
+Executed Steps       : 0
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:34
+-----------------------------------------------------
+
+Run Finished on Mon Dec 03 15:13:44 IST 2018
+-----------------------------------------------------
+ExecutionDate        : 03-Dec-2018 15-13-06
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:34
+ReportPath           : file:///D:\cognizant-intelligent-test-scripter-1.1-setup (1)\cognizant-intelligent-test-scripter-1.1\Projects\Darshan1\Results\TestDesign\NewScenario\NewTestCase\03-Dec-2018 15-13-06\summary.html
+-----------------------------------------------------
