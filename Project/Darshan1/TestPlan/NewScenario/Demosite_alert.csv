@@ -8,3 +8,4 @@ Step,ObjectName,Description,Action,Input,Condition,Reference
 7,Alert with Textbox,Click the [<Object>] ,Click,,,Alerts
 8,click the button to demonstrat,Click the [<Object>] ,Click,,,Alerts
 9,click the button to demonstrat,Click the [<Object>] ,Click,,,Alerts
+10,click the button to demonstrat,Click the [<Object>] ,Click,,,Alerts
