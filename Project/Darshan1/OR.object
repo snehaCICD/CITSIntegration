@@ -705,7 +705,7 @@
         <Property value="/html/body/div/div/div/div/div[2]/div[3]/button" ref="xpath" pref="5"/>
         <Property value="btn btn-info" ref="class" pref="6"/>
         <Property value="button.btn.btn-info" ref="css" pref="7"/>
-        <Property value="submit" ref="type" pref="10"/>
+        <Property value="submit" ref="type" pref="11"/>
       </Object>
     </ObjectGroup>
   </Page>
