@@ -32,6 +32,10 @@ Step,ObjectName,Description,Action,Input,Condition,Reference
 32,secondpassword1,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,@YWJjZDEyMzQ= Enc,,Register
 33,secondpassword1,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,@YWJjZDEyMzQ= Enc,,RegisterSneha
 34,secondpassword1,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,@YWJjZDEyMzQ= Enc,,Register
+<<<<<<< HEAD
 36,secondpassword1,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,@YWJjZDEyMzQ= Enc,,Register
 34,secondpassword1,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,@YWJjZDEyMzQ= Enc,,Register
 35,secondpassword1,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,@YWJjZDEyMzQ= Enc,,RegisterSneha
+=======
+35,secondpassword1,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,@YWJjZDEyMzQ= Enc,,RegisterSneha
+>>>>>>> refs/remotes/origin/TestCITS
