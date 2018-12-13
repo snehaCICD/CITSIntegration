@@ -1,4 +1,4 @@
-<Root type="OR" ref="Darshan1">
+﻿<Root type="OR" ref="Darshan1">
   <Page title="Cognizant Intelligent Test Scripter" ref="Cognizant">
     <ObjectGroup ref="User ID :">
       <Object frame="" ref="User ID :">
@@ -694,6 +694,18 @@
         <Property value="btn btn-info" ref="class" pref="6"/>
         <Property value="button.btn.btn-info" ref="css" pref="7"/>
         <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="click the button to demonstrat">
+      <Object frame="" ref="click the button to demonstrat">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//button[@onclick='promptbox()']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div/div/div[2]/div[3]/button" ref="xpath" pref="5"/>
+        <Property value="btn btn-info" ref="class" pref="6"/>
+        <Property value="button.btn.btn-info" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="10"/>
       </Object>
     </ObjectGroup>
   </Page>
