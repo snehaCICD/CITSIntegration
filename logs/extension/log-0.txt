@@ -7,3 +7,6 @@
 2018-12-11 03:50:47:12S -0800 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
 2018-12-11 03:50:47:12S -0800 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
 2018-12-11 03:51:31:12S -0800 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2018-12-13 23:51:51:12S -0800 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2018-12-13 23:51:51:12S -0800 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2018-12-13 23:52:34:12S -0800 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped

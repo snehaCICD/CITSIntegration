@@ -108,3 +108,69 @@ jar:file:/C:/CITS/cognizant-intelligent-test-scripter-1.1-setup/cognizant-intell
 2018-12-13 04:08:55:12S -0800 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\CITS\cognizant-intelligent-test-scripter-1.1-setup\cognizant-intelligent-test-scripter-1.1\lib\cognizant-intelligent-test-scripter-engine-1.1.jar
 2018-12-13 04:08:58:12S -0800 [INFO] com.cognizant.cognizantits.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
 2018-12-13 05:06:45:12S -0800 [INFO] com.cognizant.cognizantits.ide.main.Main finish:Cognizant Intelligent Test Scripter IDE has been Terminated - [ Total Time : 00:57:51.788 ]
+2018-12-13 23:50:26:12S -0800 [INFO] com.cognizant.cognizantits.ide.main.Main main:Launching Cognizant Intelligent Test Scripter IDE
+2018-12-13 23:50:27:12S -0800 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\GIT\CITSIntegration\lib\cognizant-intelligent-test-scripter-engine-1.1.jar
+2018-12-13 23:50:31:12S -0800 [INFO] com.cognizant.cognizantits.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2018-12-13 23:50:59:12S -0800 [SEVERE] com.cognizant.cognizantits.datalib.component.utils.FileUtils getRecords:File [C:\CITS\cognizant-intelligent-test-scripter-1.1-setup\cognizant-intelligent-test-scripter-1.1\Projects\Test\TestPlan\Demo\NewTestCase.csv] doesn't exist
+2018-12-13 23:51:10:12S -0800 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:C:\CITS\cognizant-intelligent-test-scripter-1.1-setup\cognizant-intelligent-test-scripter-1.1\Projects\Test\TestPlan\Demo\NewTestCase.csv Renamed to Login.csv
+2018-12-13 23:51:10:12S -0800 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring started for TestCase [NewTestCase] to [Login]
+2018-12-13 23:51:10:12S -0800 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring done for TestCase [NewTestCase] to [Login]
+2018-12-13 23:51:36:12S -0800 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\GIT\CITSIntegration\lib\cognizant-intelligent-test-scripter-engine-1.1.jar
+2018-12-13 23:51:36:122 -0800 [Thread-9] [WARN] com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+2018-12-13 23:51:42:363 -0800 [Thread-9] [INFO] com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - C:\CITS\cognizant-intelligent-test-scripter-1.1-setup\cognizant-intelligent-test-scripter-1.1\Projects\Test\Results\TestDesign\Demo\Login\13-Dec-2018 23-51-36\summary.html
+2018-12-13 23:51:42:364 -0800 [Thread-9] [INFO] com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\CITS\cognizant-intelligent-test-scripter-1.1-setup\cognizant-intelligent-test-scripter-1.1\Projects\Test\Results\TestDesign\Demo\Login\13-Dec-2018 23-51-36\summary.html]
+2018-12-13 23:51:51:606 -0800 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.util.log - Logging initialized @85680ms to org.eclipse.jetty.util.log.Slf4jLog
+jar:file:/C:/GIT/CITSIntegration/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2018-12-13 23:51:51:12S -0800 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2018-12-13 23:51:51:12S -0800 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2018-12-13 23:51:51:914 -0800 [SocketServer] [INFO] org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+2018-12-13 23:51:52:016 -0800 [SocketServer] [INFO] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2018-12-13 23:51:52:017 -0800 [SocketServer] [INFO] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2018-12-13 23:51:52:030 -0800 [SocketServer] [INFO] org.eclipse.jetty.server.session - Scavenging every 600000ms
+2018-12-13 23:51:52:093 -0800 [SocketServer] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5b5bf04d{/,null,AVAILABLE}
+2018-12-13 23:51:52:112 -0800 [SocketServer] [INFO] org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@1c50151c(localhost,h=[localhost],w=[]) for SslContextFactory@6da027bc(jar:file:/C:/GIT/CITSIntegration/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost,null)
+2018-12-13 23:51:52:292 -0800 [SocketServer] [INFO] org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@2346de8{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2018-12-13 23:51:52:292 -0800 [SocketServer] [INFO] org.eclipse.jetty.server.Server - Started @86369ms
+2018-12-13 23:52:08:12S -0800 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Browser[null] - Open - @https://spritz.cognizant.com/login.php
+2018-12-13 23:52:13:12S -0800 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Cognizant
+Object : User ID :
+2018-12-13 23:52:13:12S -0800 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[User ID :] - Click - null
+2018-12-13 23:52:21:12S -0800 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Cognizant
+Object : User ID :
+2018-12-13 23:52:21:12S -0800 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[User ID :] - Set - @584752
+2018-12-13 23:52:21:12S -0800 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Cognizant
+Object : User ID :
+2018-12-13 23:52:21:12S -0800 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[User ID :] - Set - @584752
+2018-12-13 23:52:21:12S -0800 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Cognizant
+Object : Password :
+2018-12-13 23:52:21:12S -0800 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Password :] - Click - null
+2018-12-13 23:52:26:12S -0800 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Cognizant
+Object : Password :
+2018-12-13 23:52:26:12S -0800 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Password :] - setEncrypted - @husytga
+2018-12-13 23:52:26:12S -0800 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Cognizant
+Object : Password :
+2018-12-13 23:52:26:12S -0800 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Password :] - setEncrypted - @husytga
+2018-12-13 23:52:26:12S -0800 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : Cognizant
+Object : Login
+2018-12-13 23:52:26:12S -0800 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Login] - Click - null
+2018-12-13 23:52:34:927 -0800 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@2346de8{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2018-12-13 23:52:34:984 -0800 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.session - Stopped scavenging
+2018-12-13 23:52:34:990 -0800 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@5b5bf04d{/,null,UNAVAILABLE}
+2018-12-13 23:52:34:12S -0800 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+jar:file:/C:/GIT/CITSIntegration/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2018-12-13 23:52:40:12S -0800 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\GIT\CITSIntegration\lib\cognizant-intelligent-test-scripter-engine-1.1.jar
+2018-12-13 23:52:40:260 -0800 [Thread-20] [WARN] com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+2018-12-13 23:52:48:547 -0800 [Thread-20] [INFO] com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - C:\CITS\cognizant-intelligent-test-scripter-1.1-setup\cognizant-intelligent-test-scripter-1.1\Projects\Test\Results\TestDesign\Demo\Login\13-Dec-2018 23-52-40\summary.html
+2018-12-13 23:52:48:547 -0800 [Thread-20] [INFO] com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\CITS\cognizant-intelligent-test-scripter-1.1-setup\cognizant-intelligent-test-scripter-1.1\Projects\Test\Results\TestDesign\Demo\Login\13-Dec-2018 23-52-40\summary.html]
+2018-12-13 23:55:23:12S -0800 [INFO] com.cognizant.cognizantits.ide.main.Main finish:Cognizant Intelligent Test Scripter IDE has been Terminated - [ Total Time : 00:04:57.186 ]
+2018-12-13 23:56:20:12S -0800 [INFO] com.cognizant.cognizantits.ide.main.Main main:Launching Cognizant Intelligent Test Scripter IDE
+2018-12-13 23:56:21:12S -0800 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\GIT\CITSIntegration\lib\cognizant-intelligent-test-scripter-engine-1.1.jar
+2018-12-13 23:56:25:12S -0800 [INFO] com.cognizant.cognizantits.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2018-12-13 23:57:31:12S -0800 [INFO] com.cognizant.cognizantits.ide.main.Main finish:Cognizant Intelligent Test Scripter IDE has been Terminated - [ Total Time : 00:01:11.140 ]
