@@ -3,3 +3,4 @@ GlobalDataID,URL,Discount,timeToWait
 "#gd2",https://www.google.co.in/,,
 "#discount",,25,
 "#slowTime",,,800
+"#slowTime",,,800
