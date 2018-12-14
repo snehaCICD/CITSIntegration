@@ -1,3 +1,4 @@
+Nikita:- testing
 <Root type="OR" ref="Test">
   <Page title="Cognizant Intelligent Test Scripter" ref="Cognizant">
     <ObjectGroup ref="User ID :">
@@ -49,6 +50,18 @@
       </Object>
     </ObjectGroup>
  <ObjectGroup ref="Invalid username and password">
+      <Object frame="" ref="Invalid username and password">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="errmsg" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Invalid username and password']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div[2]/form/p" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#errmsg" ref="css" pref="7"/>
+        <Property value="p" ref="type" pref="50"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Invalid username and password">
       <Object frame="" ref="Invalid username and password">
         <Property value="" ref="name" pref="1"/>
         <Property value="errmsg" ref="id" pref="2"/>
