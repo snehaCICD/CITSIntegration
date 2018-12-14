@@ -1,4 +1,3 @@
-Nikita:- testing
 <Root type="OR" ref="Test">
   <Page title="Cognizant Intelligent Test Scripter" ref="Cognizant">
     <ObjectGroup ref="User ID :">
