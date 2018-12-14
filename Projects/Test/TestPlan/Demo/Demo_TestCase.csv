@@ -8,3 +8,4 @@ Step,ObjectName,Description,Action,Input,Condition,Reference
 7,Invalid username and password,Assert if [<Object>]'s Text Equals [<Data>],assertElementTextEquals,@Invalid username and password,,Cognizant
 8,Invalid username and password,"Click the [<Object>] ",Click,,,Cognizant
 8,Invalid username and password,"Click the [<Object>] ",Click,,,Cognizant
+9,Invalid username and password,"Click the [<Object>] ",Click,,,nikita
